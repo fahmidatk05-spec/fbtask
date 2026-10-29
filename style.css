@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fbheader{
+    background-color:rgb(24, 119, 242);
+    padding: 10px;
+    position: relative;
+}
+.fblogo{
+    color: white;
+}
+.logform{
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+#emaillab{
+    position: absolute;
+    top: -16px;
+    color: white;
+}
+#pswdlab{
+    position: absolute;
+    top: -16px;
+    color: white;
+}
+#forget{
+    position: absolute;
+    top: 20px;
+    right: 91px;
+    color: white;
+}
+#logbtn{
+    background-color: rgb(63, 63, 147);
+}
+#keeplog{
+    position: absolute;
+    top: 20px;
+    color: white;
+}
+#sign{
+    font-size: 35px;
+    position: absolute;
+    top: 75px;
+    right: 110px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#scnd{
+    font-size: 15px;
+    top: 120px;
+    right: 140px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fname{
+    position: absolute;
+    top: 163px;
+    right: 229px;
+}
+#lname{
+    position: absolute;
+    top: 163px;
+    right: 48px;
+}
+
+#yourem{
+    position: absolute;
+    top: 200px;
+    right: 48px;
+}
+#newpswd{
+    position: absolute;
+    top: 236px;
+    right: 48px;
+}
+#dob{
+    position: absolute;
+    top: 273px;
+    right: 300px;
+}
+#date{
+    position: absolute;
+    top:297px;
+    right: 278px;
+}
+#brd{
+    position: absolute;
+    top: 297px;
+    right: 39px;
+    font-size: 18px;
+}
+#gender{
+    position: absolute;
+    top: 334px;
+    right: 228px;
+}
+#terms{
+    position: absolute;
+    top: 371px;
+    right: 33px;
+}
+#signup{
+    position: absolute;
+    font-size: large;
+    top: 450px;
+    right: 298px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+#main{
+    position: absolute;
+    left: 15px;
+    top: 120px;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 2;
+}
+img{
+    position: absolute;
+    left: 90px;
+    z-index: 1;
+}
